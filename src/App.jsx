@@ -1,4 +1,5 @@
 import Projects from "./pages/Projects"
+import Contact from "./pages/Contact"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <div>
         <Projects />
+        <Contact />
       </div>
        
     </>
