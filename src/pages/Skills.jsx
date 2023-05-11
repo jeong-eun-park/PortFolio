@@ -1,3 +1,6 @@
+import { Canvas } from "@react-three/fiber";
+import TagCloud from "../components/TagCloud";
+
 const Skills = () => {
   return (
     <div className=" flex max-w-full h-screen relative z-30 py-[144px] px-[150px]">
@@ -28,7 +31,9 @@ const Skills = () => {
         </div>
       </div>
       <div className="flex-1 max-w-full">
-       
+      <Canvas camera={{ position: [0, 0, 35], fov: 90 }}>
+          <TagCloud count={4} radius={23} />
+        </Canvas>
       </div>
     </div>
   );

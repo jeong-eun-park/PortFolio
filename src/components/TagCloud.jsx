@@ -21,7 +21,9 @@ const TagCloud = ({ count = 4, radius = 20 }) => {
 
     const temp = Texts.map((text, index) => [coordinate[index], text]);
     return temp;
+    
   }, [count, radius]);
+
 
   return words.map(([pos, word], index) => (
     <Text
