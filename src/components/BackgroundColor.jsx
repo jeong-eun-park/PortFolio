@@ -59,10 +59,10 @@ export const BackgroundColor = () => {
 
   return (
     <>
-      {/* <Sphere scale={[500, 500, 500]} rotation-y={Math.PI / 2}>
+      <Sphere scale={[500, 500, 500]} rotation-y={Math.PI / 2}>
         <LayerMaterial color={"#FFF"} side={THREE.BackSide}>
           <Gradient
-            ref={gradientRef}
+            // ref={gradientRef}
             colorA="#A2B0FF"
             colorB="#FDE2E4"
             axes={"y"}
@@ -70,7 +70,7 @@ export const BackgroundColor = () => {
             end={end}
           />
         </LayerMaterial>
-      </Sphere> */}
+      </Sphere>
       <Environment preset="sunset" />
       <Sphere
         scale={[100, 100, 100]}

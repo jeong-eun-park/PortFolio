@@ -6,7 +6,7 @@ import { Cloud } from "./Cloud";
 const Background = () => {
   return (
     <>
-      <Canvas camera={{ position: [0, 0, 8], fov: 30 }}>
+      <Canvas camera={{ position: [0, 0, 8], fov: 30 }} style={{background:'#ececec'}}>
         {/* <color attach="background" args={["#ececec"]} /> */}
         <BackgroundColor />
         <Float speed={1}>
