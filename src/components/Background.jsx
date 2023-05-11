@@ -7,7 +7,6 @@ const Background = () => {
   return (
     <>
       <Canvas camera={{ position: [0, 0, 8], fov: 30 }} style={{background:'#ececec'}}>
-        {/* <color attach="background" args={["#ececec"]} /> */}
         <BackgroundColor />
         <Float speed={1}>
         <Cloud opacity={0.7} scale={[0.3, 0.3, 0.3]} position={[3, 1.5, -2]} />

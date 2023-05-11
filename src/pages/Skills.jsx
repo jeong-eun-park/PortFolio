@@ -9,7 +9,7 @@ const Skills = () => {
           <p className="text-6xl mb-2 font-bold text-[#25385B]">
             Skills & Experience
           </p>
-          <div className="mt-[20px]">
+          <div className="mt-[30px]">
             <p>
               웹 개발에 필수적인 HTML, CSS, JavaScript를 비롯하여, React와 같은
               프론트엔드 프레임워크 및 라이브러리들을 다룰 수 있습니다. SCSS와

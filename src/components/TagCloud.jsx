@@ -29,7 +29,7 @@ const TagCloud = ({ count = 4, radius = 20 }) => {
     <Text
       key={index}
       position={pos}
-      fontSize={1.8}
+      fontSize={2}
       color="#FFF"
     >{word}</Text>
   ));
