@@ -29,7 +29,7 @@ const TagCloud = ({ count = 4, radius = 20 }) => {
     <Text
       key={index}
       position={pos}
-      fontSize={2}
+      fontSize={3}
       color="#FFF"
     >{word}</Text>
   ));
@@ -39,16 +39,16 @@ export default TagCloud;
 
 const Texts = [
   "",
-  "trello",
   "HTML",
   "CSS",
   "Redux",
-  "React-query",
+  "React",
   "JAVASCRIPT",
   "zustand",
+  "",
   "SASS",
   "tailwind",
-  "React",
+  "React-query",
   "styled-component",
   "git",
   "trello",
