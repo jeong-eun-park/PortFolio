@@ -1,10 +1,11 @@
+import Projects from "./pages/Projects"
 
 function App() {
 
   return (
     <>
       <div>
-        hello
+        <Projects />
       </div>
        
     </>
